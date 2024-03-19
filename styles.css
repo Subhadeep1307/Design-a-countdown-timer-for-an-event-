@@ -1,0 +1,80 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+  }
+  
+
+body{
+    font-family: "Kode Mono", monospace;
+   color: white;
+background: url('img/bg10.jpg');
+height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ display: flex;
+
+
+ 
+overflow: hidden;
+
+}
+
+.main{
+    position: absolute;
+left: 75px;
+ top: 150px;
+ 
+}
+
+
+h1{
+    font-weight: normal;
+    font-size: 55px;
+    margin: 100 00 100px;
+}
+.countdown{
+display: flex;
+transform: scale(2);
+position: absolute;
+left: 320px;
+ top: 370px;
+ 
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin:15px;
+
+}
+.time h2{
+
+    font-weight: bold;
+    font-size: 40px;
+    margin: auto;
+   
+}
+
+@media (max-width:500px ) {
+    h1{
+        font-size: 45px;
+    }
+   .time{
+    margin: 5px;
+   }
+   .time h2{
+    font-size: 12px;
+
+   }
+   .time small{
+    font-size: 25px;
+   }
+
+
+}
+
